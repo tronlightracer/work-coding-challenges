@@ -1,0 +1,4 @@
+# Accepts a file path, reads through the file, and lists letters not found in
+# the file
+
+ruby missing-chars.rb [filepath]
