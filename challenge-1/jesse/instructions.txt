@@ -1,0 +1,5 @@
+install ghc
+
+then run `$ ghc --make whats-missing.hs`
+
+then run it like `$ ./whats-missing abcdefg`
