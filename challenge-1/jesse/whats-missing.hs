@@ -1,9 +1,8 @@
 import System.Environment
-import Data.Char (toLower)
 import Data.List ((\\))
 
-containsAll :: String -> String
-containsAll = (['a' .. 'z'] \\)
+findMissing :: String -> String
+findMissing = (['a' .. 'z'] \\)
 main = do
   (toTest:args) <- getArgs
-  print $ containsAll toTest
+  print $ findMissing toTest
